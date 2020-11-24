@@ -1,0 +1,256 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  /* font-family: 'Handlee', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif; */
+}
+
+    /* <!-- psd start  */
+
+
+    
+    /* <!-- psd end  --> */
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+.big-banner{
+  background-image:url(./image/logo\ places\ banner\ version2.jpg) ;
+  
+}
+/* header{
+  background-image: url(./image/logoplaces\ web\ banner.jpg);
+  background-position: center;
+  /* background-attachment:; */
+  /* background-repeat: no-repeat;
+  background-size: contain; */
+
+
+/* .banner-container{
+  height: 100vh;
+*/ */
+
+.banner-container h1{
+  font-size: 3.5rem ;
+  
+}
+
+.section-title h1 {
+  font-weight: bolder;
+  margin-bottom: 0;
+  padding: 10px 20px;
+}
+.hr-style {
+  border: 5px dotted white;
+  border-bottom: none;
+  width: 50px;
+}
+/* start the header section  */
+/* header {
+  background-image: ;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+.navbar {
+  padding: 1% 5%;
+  background-color: black;
+}
+.navbar-icon {
+  color: white;
+}
+.navbar-brand img {
+  width: 60px;
+  height: auto;
+}
+.nav-link {
+  color: white;
+  margin: 10px;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+.nav-link:hover {
+  background: #0d0442;
+  color: white;
+  transform: scale(1.1);
+}
+.banner-container {
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+.btn:hover {
+  color: white;
+  transform: scale(1.1);
+}
+.banner-container h1 {
+  font-size: 3.5rem;
+  background-color: rgba(7, 101, 189, 0.8);
+  padding: 10px 20px;
+  font-family: "Roboto", sans-serif;
+  border-radius: 5px;
+}
+
+
+/* end the logo section */
+
+/* END the header section  */
+
+/* start the search section  */
+/* .search-main{
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+input{
+
+
+  border: 3px solid #32e17c;
+  height: 40 px;
+  width: 300px;
+  border-radius: 50px;
+}
+
+<!-- end  the search button --> */ */
+
+
+
+
+ /* feature and main section start */ */
+#features {
+  padding: 5% 10%;
+  background: #e8ded2;
+}
+.features-col {
+  border: 1px solid #ff02cb;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 20px 0;
+  transition: 0.4s;
+}
+.features-col:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 6px 5px black;
+}
+.icon-style {
+  background: #bb0aac;
+  color: white;
+  padding: 15px;
+}
+/* feature and main section end */
+/* <!-- about me secton start --> */
+#about-me {
+  padding: 4% 10%;
+  background: #e8ded2;
+}
+#about-me p {
+  font-size: 0.9rem;
+  margin-bottom: 0;
+  font-weight: light;
+}
+#about-me a {
+  font-size: 0.9rem;
+  font-weight: light;
+  text-decoration: underline;
+}
+
+.star i {
+  width: 20px;
+  color: blue;
+}
+/* <!-- about me secton end --> */
+/* tutorial section start */
+/* #tutorial{
+  padding: 4% 10%;
+  background:#a3d2ca ;
+} */
+
+.tutorial-section {
+  padding: 4% 10%;
+  background: #a3d2ca;
+}
+.card {
+  transition: 0.4s;
+  border: 1px solid #ff02c0;
+}
+.card:hover {
+  transition: scale(1.1);
+  box-shadow: 2px 6px 5px black;
+}
+/* tutorial section end */
+
+/* star caorusel section  */
+#feedback {
+  padding: 7%;
+  background: #50aaa8;
+
+  /* background-color: #0d0442;
+        padding:7% 10%;  */
+}
+.hr-style {
+  border: 5px dotted white;
+  border-bottom: none;
+  width: 50px;
+  font-style: italic;
+}
+
+.carousel-item{
+  text-align: center;
+  padding: 5% 15%;
+}
+/* .carousel-item {
+  padding: 5% 15%;
+  text-align: center;
+} */
+.feedback-img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 5px;
+}
+.carousel-indicators {
+  bottom: -20px;
+}
+/*  end caorusel section  */
+/* start the contact section  */
+.contact-section {
+  padding: 2% 10%;
+  background: #5eaaa8;
+}
+/* end the contact section  */
+/* footer section start * */
+footer {
+  padding: 1% 10%;
+  background: #056676;
+}
+
+footer a {
+  color: white;
+  margin-bottom: 0 10px;
+}
+footer a:hover {
+  color: black;
+}
+/* footer section end* */
+
+/* start responsive set for all devise */
+@media (max-width: 768px) {
+  .nav-link {
+    background: rgba(0, 0, 0.7);
+  }
+  .banner-container h1 {
+    font-size: 2.5rem;
+  }
+}
+
+/* end responsive set for all devise */
